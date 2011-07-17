@@ -30,6 +30,15 @@
 [metadata]
     git=http://github.com/schmittjoh/metadata.git
 
+[behat]
+    git=http://github.com/Behat/Behat.git
+
+[gherkin]
+    git=http://github.com/Behat/Gherkin.git
+
+[mink]
+    git=http://github.com/Behat/Mink.git
+
 [SensioFrameworkExtraBundle]
     git=http://github.com/sensio/SensioFrameworkExtraBundle.git
     target=/bundles/Sensio/Bundle/FrameworkExtraBundle
@@ -49,3 +58,11 @@
 [AsseticBundle]
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
+
+[BehatBundle]
+    git=http://github.com/Behat/BehatBundle.git
+    target=/bundles/Behat/BehatBundle
+
+[MinkBundle]
+    git=http://github.com/Behat/MinkBundle.git
+    target=/bundles/Behat/MinkBundle
