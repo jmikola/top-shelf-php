@@ -1,0 +1,7 @@
+web/bundles/
+app/config/parameters.ini
+app/bootstrap*
+app/cache/*
+app/logs/*
+build/
+vendor/
