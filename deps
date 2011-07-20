@@ -38,7 +38,7 @@
 
 [behat]
     git=http://github.com/Behat/Behat.git
-    version=v2.0.2
+    version=v2.0.3
 
 [gherkin]
     git=http://github.com/Behat/Gherkin.git
@@ -46,7 +46,7 @@
 
 [mink]
     git=http://github.com/Behat/Mink.git
-    version=develop
+    version=v1.0.1
 
 [SensioFrameworkExtraBundle]
     git=http://github.com/sensio/SensioFrameworkExtraBundle.git

@@ -25,5 +25,5 @@ assetic:
 
 behat: ~
 
-behat_mink:
+mink:
     base_url: http://%web_host%/app_dev.php/

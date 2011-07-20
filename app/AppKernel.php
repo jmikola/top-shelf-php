@@ -25,7 +25,7 @@ class AppKernel extends Kernel
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             $bundles[] = new Behat\BehatBundle\BehatBundle();
-            $bundles[] = new Behat\MinkBundle\BehatMinkBundle();
+            $bundles[] = new Behat\MinkBundle\MinkBundle();
         }
 
         return $bundles;
