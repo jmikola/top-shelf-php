@@ -13,13 +13,11 @@
     git=http://github.com/doctrine/common.git
     version=2.1.0
 
-[doctrine-dbal]
-    git=http://github.com/doctrine/dbal.git
-    version=2.1.0
+[doctrine-mongodb]
+    git=http://github.com/doctrine/mongodb.git
 
-[doctrine]
-    git=http://github.com/doctrine/doctrine2.git
-    version=2.1.0
+[doctrine-mongodb-odm]
+    git=http://github.com/doctrine/mongodb-odm.git
 
 [swiftmailer]
     git=http://github.com/swiftmailer/swiftmailer.git
@@ -63,6 +61,10 @@
 [SensioGeneratorBundle]
     git=http://github.com/sensio/SensioGeneratorBundle.git
     target=/bundles/Sensio/Bundle/GeneratorBundle
+
+[DoctrineMongoDBBundle]
+    git=http://github.com/symfony/DoctrineMongoDBBundle.git
+    target=/bundles/Symfony/Bundle/DoctrineMongoDBBundle
 
 [AsseticBundle]
     git=http://github.com/symfony/AsseticBundle.git
