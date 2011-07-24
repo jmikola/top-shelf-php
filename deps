@@ -69,7 +69,7 @@
 [AsseticBundle]
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
-    version=v1.0.0RC1
+    version=v1.0.0RC2
 
 [BehatBundle]
     git=http://github.com/Behat/BehatBundle.git
