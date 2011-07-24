@@ -1,8 +1,9 @@
 {% extends "AcmeDemoBundle::layout.html.twig" %}
 
-{% block title "Symfony - Contact form" %}
+{% block title "Symfony - Contact Form" %}
 
 {% block content %}
+    <h1>Contact Form</h1>
     <form action="{{ path('_demo_contact') }}" method="POST" id="contact_form">
         {{ form_errors(form) }}
 
