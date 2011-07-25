@@ -1,1 +1,18 @@
-Hello {{ name }}!
+
+{% extends "::base.html.twig" %}
+
+{% block title "Todo >> List" %}
+
+{% block content %}
+
+<h1>Todo list:</h1>
+
+<ul>
+    {% for todo in todos %}
+    <li>{{ todo.name }}</li>
+    {% endfor %}
+</ul>
+
+<a href="{{ path('todo_create') }}">Create</a>
+
+{% endblock %}
