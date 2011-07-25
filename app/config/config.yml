@@ -44,6 +44,7 @@ doctrine_mongodb:
         default:
             mappings:
                 AcmeDemoBundle: ~
+                AcmeTodoBundle: ~
             metadata_cache_driver: apc # array, apc, xcache, memcache
 
 # Swiftmailer Configuration
