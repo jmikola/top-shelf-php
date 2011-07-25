@@ -1,80 +1,80 @@
 [symfony]
-    git=http://github.com/symfony/symfony.git
+    git=https://github.com/symfony/symfony.git
 
 [twig]
-    git=http://github.com/fabpot/Twig.git
+    git=https://github.com/fabpot/Twig.git
     version=v1.1.1
 
 [monolog]
-    git=http://github.com/Seldaek/monolog.git
+    git=https://github.com/Seldaek/monolog.git
     version=1.0.0
 
 [doctrine-common]
-    git=http://github.com/doctrine/common.git
+    git=https://github.com/doctrine/common.git
     version=2.1.0
 
 [doctrine-mongodb]
-    git=http://github.com/doctrine/mongodb.git
+    git=https://github.com/doctrine/mongodb.git
 
 [doctrine-mongodb-odm]
-    git=http://github.com/doctrine/mongodb-odm.git
+    git=https://github.com/doctrine/mongodb-odm.git
 
 [swiftmailer]
-    git=http://github.com/swiftmailer/swiftmailer.git
+    git=https://github.com/swiftmailer/swiftmailer.git
     version=v4.1.0
 
 [assetic]
-    git=http://github.com/kriswallsmith/assetic.git
+    git=https://github.com/kriswallsmith/assetic.git
     version=v1.0.1
 
 [twig-extensions]
-    git=http://github.com/fabpot/Twig-extensions.git
+    git=https://github.com/fabpot/Twig-extensions.git
 
 [metadata]
-    git=http://github.com/schmittjoh/metadata.git
+    git=https://github.com/schmittjoh/metadata.git
     version=1.0.0
 
 [behat]
-    git=http://github.com/Behat/Behat.git
+    git=https://github.com/Behat/Behat.git
     version=v2.0.3
 
 [gherkin]
-    git=http://github.com/Behat/Gherkin.git
+    git=https://github.com/Behat/Gherkin.git
     version=v1.1.0
 
 [mink]
-    git=http://github.com/Behat/Mink.git
+    git=https://github.com/Behat/Mink.git
     version=v1.0.1
 
 [SensioFrameworkExtraBundle]
-    git=http://github.com/sensio/SensioFrameworkExtraBundle.git
+    git=https://github.com/sensio/SensioFrameworkExtraBundle.git
     target=/bundles/Sensio/Bundle/FrameworkExtraBundle
 
 [JMSSecurityExtraBundle]
-    git=http://github.com/schmittjoh/JMSSecurityExtraBundle.git
+    git=https://github.com/schmittjoh/JMSSecurityExtraBundle.git
     target=/bundles/JMS/SecurityExtraBundle
 
 [SensioDistributionBundle]
-    git=http://github.com/sensio/SensioDistributionBundle.git
+    git=https://github.com/sensio/SensioDistributionBundle.git
     target=/bundles/Sensio/Bundle/DistributionBundle
 
 [SensioGeneratorBundle]
-    git=http://github.com/sensio/SensioGeneratorBundle.git
+    git=https://github.com/sensio/SensioGeneratorBundle.git
     target=/bundles/Sensio/Bundle/GeneratorBundle
 
 [DoctrineMongoDBBundle]
-    git=http://github.com/symfony/DoctrineMongoDBBundle.git
+    git=https://github.com/symfony/DoctrineMongoDBBundle.git
     target=/bundles/Symfony/Bundle/DoctrineMongoDBBundle
 
 [AsseticBundle]
-    git=http://github.com/symfony/AsseticBundle.git
+    git=https://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.0RC2
 
 [BehatBundle]
-    git=http://github.com/Behat/BehatBundle.git
+    git=https://github.com/Behat/BehatBundle.git
     target=/bundles/Behat/BehatBundle
 
 [MinkBundle]
-    git=http://github.com/Behat/MinkBundle.git
+    git=https://github.com/Behat/MinkBundle.git
     target=/bundles/Behat/MinkBundle
