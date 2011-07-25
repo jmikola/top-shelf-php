@@ -3,11 +3,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
+        {% stylesheets filter='cssrewrite,?yui_css' output='common.css'
+            '@AcmeTodoBundle/Resources/public/css/common.css'
+         %}
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
+
         {% block stylesheets %}{% endblock %}
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
         {% block body %}{% endblock %}
+        
+        {% javascripts filter='?yui_js' output='common.js'
+            '@AcmeTodoBundle/Resources/public/js/common.js'
+        %}
+        <script type="text/javascript" src="{{ asset_url }}" charset="utf-8" defer></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
