@@ -27,10 +27,10 @@ assetic:
     use_controller: false
     filters:
         cssrewrite: ~
-        # closure:
-        #     jar: %kernel.root_dir%/java/compiler.jar
-        # yui_css:
-        #     jar: %kernel.root_dir%/java/yuicompressor-2.4.2.jar
+        yui_css:
+           jar: /usr/share/yui-compressor/yui-compressor.jar
+        yui_js:
+           jar: /usr/share/yui-compressor/yui-compressor.jar
 
 # Doctrine Configuration
 doctrine_mongodb:
