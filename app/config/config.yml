@@ -42,8 +42,6 @@ doctrine_mongodb:
     default_database: %database_name%_%kernel.environment%
     document_managers:
         default:
-            mappings:
-                AcmeDemoBundle: ~
             metadata_cache_driver: array # array, apc, xcache, memcache
 
 # Swiftmailer Configuration

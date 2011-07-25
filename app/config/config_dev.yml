@@ -23,6 +23,13 @@ monolog:
 assetic:
     use_controller: true
 
+# Doctrine Configuration
+doctrine_mongodb:
+    document_managers:
+        default:
+            mappings:
+                AcmeDemoBundle: ~
+
 behat: ~
 
 mink:
