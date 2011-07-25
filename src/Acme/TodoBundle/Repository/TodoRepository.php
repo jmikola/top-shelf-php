@@ -14,4 +14,3 @@ class TodoRepository extends DocumentRepository
             ->execute();
     }
 }
-
